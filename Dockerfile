@@ -1,7 +1,7 @@
-#Dockerfile, Image, Container
-FROM node:16
+FROM node:12
 ADD . .
-COPY . kafka/kafka/kafka-api
-WORKDIR kafka/kafka/kafka-api
-RUN npm start 
-
+RUN pwd && ls -l
+COPY . kafka-front
+WORKDIR kafka-front
+RUN npm install 
+RUN npm run build
