@@ -1,5 +1,5 @@
 #Dockerfile, Image, Container
-FROM debian
+FROM node:16
 
 ADD . .
 
