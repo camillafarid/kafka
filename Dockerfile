@@ -1,8 +1,7 @@
-#Dockerfile, Image, Container
-FROM node:16
-
-ADD . .
-
-RUN npm start 
-
-CMD ["kafka"]
+FROM node:alpine
+RUN mkdir /app
+WORKDIR /app
+COPY package.json /app
+RUN npm install
+COPY . /app
+CMD ["npm", "start"]
