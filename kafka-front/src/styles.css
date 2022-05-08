@@ -1,0 +1,147 @@
+.containerTeste {
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    padding: 100px;
+    flex-direction: column;
+    height: 100%;
+    background: linear-gradient(#121212, #212b45);
+}
+
+.title {
+    font-size: 45px;
+    padding: 30px;
+    color: #FFF;
+    animation: flipTitle 2s;
+}
+
+.title2 {
+    font-size: 25px;
+    color: #FFF;
+    padding: 15px;
+    animation: flipTitle 2s;
+}
+
+@keyframes flipTitle {
+    from {
+        transform: rotateX(90deg)
+    }
+    to {
+        transform: rotateX(0deg)
+    }
+}
+
+.containerInput {
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 15px;
+    margin: 34px;
+    display: flex;
+    width: 770px;
+    border-radius: 8px;
+    flex-direction: row;
+    box-shadow: 1px 3px 8px rgba(0, 0, 0, 0.5)
+}
+
+.containerInputBrokers {
+    display: flex;
+}
+
+.containerInputInner {
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 15px;
+    margin: 34px;
+    display: flex;
+    width: 770px;
+    border-radius: 8px;
+    flex-direction: row;
+    box-shadow: 1px 3px 8px rgba(0, 0, 0, 0.5)
+}
+
+.containerInputTopic {
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 15px;
+    margin: 34px;
+    display: flex;
+    width: 570px;
+    border-radius: 8px;
+    flex-direction: row;
+    box-shadow: 1px 3px 8px rgba(0, 0, 0, 0.5)
+}
+
+.containerButton {
+    padding: 15px;
+    margin: 34px;
+    display: flex;
+    border-radius: 8px;
+    flex-direction: row;
+}
+
+.containerInputInner input {
+    background-color: transparent;
+    border: 0;
+    font-size: 20px;
+    color: #FFF;
+    outline: none;
+    margin-right: 50px;
+}
+
+.containerInputTopic input {
+    background-color: transparent;
+    border: 0;
+    font-size: 20px;
+    color: #FFF;
+    outline: none;
+    margin-right: 50px;
+}
+
+.containerInput input {
+    background-color: transparent;
+    border: 0;
+    font-size: 20px;
+    color: #FFF;
+    outline: none;
+    width: 200px;
+    margin-right: 50px;
+}
+
+.buttonSearch {
+    width: 300px;
+    background-color: transparent;
+    border: 0;
+    cursor: pointer;
+    transition: transform 0.5s;
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 15px;
+    margin: 34px;
+    display: flex;
+    width: 200px;
+    border-radius: 8px;
+    flex-direction: row;
+    box-shadow: 1px 3px 8px rgba(0, 0, 0, 0.5)
+}
+
+.buttonSearch button {
+    width: 300px;
+    background-color: transparent;
+    border: 0;
+    display: flex;
+    cursor: pointer;
+    transition: transform 0.5s;
+}
+
+.buttonSerch:hover {
+    transform: scale(1.2);
+}
+
+.card {
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 15px;
+    margin: 34px;
+    display: flex;
+    color: #FFF;
+    width: 870px;
+    border-radius: 8px;
+    flex-direction: row;
+    box-shadow: 1px 3px 8px rgba(0, 0, 0, 0.5)
+}
